@@ -17,18 +17,26 @@ checkbtn.addEventListener("click", function validbill() {
     else{
 
         if(billA.value > 0) {
+
+
             console.log(cashGiven.value >= billA.value)
 
 
-            if((cashGiven.value >= billA.value) == "true")
+            if(cashGiven.value >= billA.value)
             {
                 const amntbertrn = cashGiven.value - billA.value;
                 calculateChange(amntbertrn);
             }
+
+
             else{
                 msgshow("The cash provided should atleast be equal to the bill amount");
             }
+
+
         }
+
+
         else {
             msgshow("Invalid Bill Amount");
         }
