@@ -63,7 +63,7 @@ caption{
     font-size: x-large;
     font-family: 'Oswald', sans-serif;
     margin: auto;
-    margin-top: -1rem;
+    margin-top: 1rem;
     /* margin-bottom: 1rem; */
 }
 
@@ -87,3 +87,12 @@ th{
     border: 2px solid black;
 }
 
+#error-msg{
+    /* border: 2px solid black; */
+    margin: 1rem 1rem;
+    font-size: x-large;
+    border-radius: 1rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    color: brown;
+}
