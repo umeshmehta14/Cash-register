@@ -1,5 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Dancing+Script&family=Montserrat:wght@200&family=Oswald:wght@300&family=Pacifico&family=Roboto+Mono:wght@100&family=Roboto:wght@100&display=swap');
+
+
+/* font-family: 'BIZ UDPMincho', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace; */
 .container{
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 30rem;
+    height: 35rem;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    background-color: rgb(206, 164, 246);
+    border: 2px solid purple;
+    border-radius: 1rem;
 }
+
+.heading{
+    text-align: center;
+    font-family: 'BIZ UDPMincho', serif;
+    font-weight: bold;
+    text-decoration:underline;
+
+}
+
+.description{
+    padding: 2px 2px ;
+    font-weight: bold;
+}
+
+label{
+    font-size:x-large;
+}
+
+input{
+    margin: 15px auto ;
+    height: 25px;
+    width: 15rem;
+}
+
+button{
+    display: inline;
+    padding: 8px 10px;
+    margin: 0px 12rem;
+    font-size: x-large;
+    font-family: 'Dancing Script', cursive;
+    border: 2px solid purple;
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color: rgb(54, 3, 58);
+    color: aliceblue;
+}
+
+caption{
+    font-size: x-large;
+    font-family: 'Oswald', sans-serif;
+    margin: auto;
+    margin-top: -1rem;
+    /* margin-bottom: 1rem; */
+}
+
+.change-table{
+    border: 3px solid rgb(71, 2, 71);
+    font-size: larger;
+}
+
+.t-r{
+    height: 30px;
+}
+
+td{
+    border: 2px solid rgb(82, 12, 62);
+    padding: 7px 6px;
+    background-color: aliceblue;
+}
+
+th{
+    background-color: rgb(234, 238, 243);
+    border: 2px solid black;
+}
+
