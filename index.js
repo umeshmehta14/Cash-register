@@ -20,7 +20,7 @@ checkbtn.addEventListener("click", function validbill() {
             console.log(cashGiven.value >= billA.value)
 
 
-            if(cashGiven.value <= billA.value)
+            if(cashGiven.value >= billA.value)
             {
                 const amntbertrn = cashGiven.value - billA.value;
                 calculateChange(amntbertrn);
